@@ -149,8 +149,8 @@ fun MainScreen(
             modifier = Modifier
                 .fillMaxWidth(
                     when (isSmallSize) {
-                        true -> 0.4f
-                        false -> 0.9f
+                        true -> 0.41f
+                        false -> 0.91f
                     }
                 )
                 .aspectRatio(16f / 9)
